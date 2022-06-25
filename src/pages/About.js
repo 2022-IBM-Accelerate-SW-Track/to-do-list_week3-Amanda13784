@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
-import profile_pic from "../assets/profile_pic.jpg";
+import profile_pic from "../assets/Amanda.jpg";
 
 export default class About extends Component {
   render() {
@@ -18,10 +18,13 @@ export default class About extends Component {
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
+            <div className="name_title">Amanda Baker</div>
             <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+              <p> Hi. I am a Deep Canvass trainer at a non-profit social and political justice
+                organization called Down Home North Carolina. I am also a full-time 
+                Software Engineering Student at Arizona State University, a mother of three beautiful children, 
+                and a wife of eleven years. I enjoy science, reading, meeting new people and most outdoor activities.
+              </p>
             </div>
           </div>
         </div>
